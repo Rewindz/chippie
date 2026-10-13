@@ -2,6 +2,8 @@
 
 #include <ctre.hpp>
 
+#include <algorithm>
+
 std::vector<Token> lex(std::string_view src)
 {
     std::vector<Token> tokens;
